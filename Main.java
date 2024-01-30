@@ -2,7 +2,6 @@ import java.io.FileWriter;
 
 public class Main {
     public static void main(String[] args) throws java.io.IOException {
-        // Ввод граммовок для каждого типа ингредиента
         int gramsOfTvorog = 400;
         int Eggs = 3;
         int Sugar = 4;
@@ -10,7 +9,6 @@ public class Main {
         int Flour = 3;
         int VanilaSugar = 1;
 
-        // Написание полного способа приготовления
         String recipe = "1. Соедините в миске творог, яйцо, сахар, ванильный сахар и соль, и все это перемешайте.\n" +
                 "2. Затем добавьте муку (2 столовые ложки с горкой) и также все тщательно перемешайте.\n" +
                 "3. Сформируйте шарики из творожной массы, на разогретую сковороду нальем растительное масло.\n" +
